@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.slf4j.*;
 @SpringBootApplication
 public class AmazonjensdemoApplication implements CommandLineRunner {
-	public static final Logger Logger= LoggerFactory.getLogger(AmazonjensdemoApplication.class);
+	public static final Logger Logger= LoggerFactory.getLogger(AmazonjensdemoApplication.class)
 
 	public static void main(String[] args) {
 		Logger.info("its a CI pipeline job");
